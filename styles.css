@@ -1,1 +1,64 @@
 
+/* Here I have provided design and color using CSS*/
+body {
+    
+    background-color: rgb(224,208,182);
+    margin: 12px;
+    padding: 10px0;
+}
+
+.container {
+    width: 310px;
+    margin: 48px auto;
+    padding: 25px;
+    background: rgb(120,166,164);
+    border-radius: 8px;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    gap: 8px;
+}
+
+input[type="text"] {
+    flex: 2;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+}
+
+button {
+    padding: 9px 14px;
+    background-color: green;
+    border: none;
+    color: rgb(217,222,234);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0,122,126);
+}
+
+ul {
+    padding: 3px;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    border-bottom: 2px;
+}
+
